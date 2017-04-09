@@ -3,35 +3,58 @@
   <head>
     <meta charset="utf-8">
     <title>Мое портфолио</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&subset=cyrillic">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <main>
-      <section>
-      <h1>Moe портфолиио</h1>
-        <figure>
-          <figcaption>Макет Sedona</figcaption>
-          <a href="#" title="Переход Макет Sedona">
-            <img src="img/sedona-preview-min.jpg" alt="Макет Sedona">
-          </a>
-        </figure>
-        <figure>
-          <figcaption>Макет Nerds</figcaption>
-            <a href="#" title="Переход Макет Nerds">
-              <img src="img/nerds-preview-min.jpg" alt="Макет Nerds">
+    <main class="container">
+      <section class="portfolio">
+      <h1 class="portfolio-title">Moe портфолиио</h1>
+        <div class="layout">
+          <figure>
+            <figcaption>Макет Sedona</figcaption>
+            <a href="#" title="Переход Макет Sedona">
+              <img src="img/sedona-preview-min.jpg" width="400" height="200" alt="Макет Sedona">
             </a>
-        </figure>
-        <div>
+          </figure>
+          <figure>
+            <figcaption>Макет Nerds</figcaption>
+              <a href="#" title="Переход Макет Nerds">
+                <img src="img/nerds-preview-min.jpg" width="400" height="200" alt="Макет Nerds">
+              </a>
+          </figure>
+        </div>
+        <div class="adaptive-layout">
           <h2>Адаптивная верстка</h2>
           <figure>
             <figcaption>Макет Pink</figcaption>
               <a href="#" title="Переход Макет Pink">
-                <img src="img/pink-preview-min.jpg" alt="Макет Pink">
+                <img src="img/pink-preview-min.jpg" width="400" height="200" alt="Макет Pink">
               </a>
           </figure>
         </div>
+      </section>
+      <section class="certificates">
+        <h1>Мои сертификаты</h1>
+          <figure class="certificates-miniature">
+            <figcaption>Базовый интенсив</figcaption>
+              <a href="#base" title="Базовый интенсив">
+                <img src="img/certificate-base-min.jpg" width="200" height="300" alt="Сертификат Базовый интенсив">
+              </a>
+          </figure>
+          <a class="lightbox" id="base" href="#close">
+            <img src="img/certificate-base-min.jpg">
+          </a>
+          <figure class="certificates-miniature">
+            <figcaption>Продвинутый интенсив</figcaption>
+            <a href="#advanced" title="Продвинутый интенсив">
+              <img src="img/certificate-advanced-min.jpg" width="200" height="300" alt="Сертификат Продвинутый интенсив">
+            </a>
+          </figure>
+          <a class="lightbox" id="advanced" href="#close">
+            <img src="img/certificate-advanced-min.jpg">
+          </a>
       </section>
     </main>
   </body>
