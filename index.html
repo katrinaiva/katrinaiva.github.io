@@ -8,8 +8,88 @@
 <!--    <link rel="stylesheet" href="css/normalize.css">-->
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-    <main class="container">
+
+<body>
+  <header>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Иванцева Екатерина</h1>
+        <p>Html-верстальщик/Front-end developer</p>
+<!--        <button>Hire me</button>-->
+      </div>
+    </div>
+  </header>
+  <main>
+      <section class="portfolio">
+        <h2 class="portfolio__title">Портфолио</h2>
+        <ul class="portfolio__items">
+          <li class="portfolio__item">Все
+          <li class="portfolio__item">Адаптивная верстка
+          <li class="portfolio__item">Разное
+        </ul>
+        <div class="portfolio__projects">
+          <div class="portfolio__projects-filter">
+            <div class="portfolio__project">
+              <a href="https://katrinaiva.github.io/188118-sedona/" target="_blank" title="Переход Макет Sedona">
+                <img src="img/sedona-preview-min.jpg"  alt="Макет Sedona">
+                <div class="portfolio__overlay">
+                  <div class="portfolio__overlay-content">
+                    <h2 class="portfolio__overlay-title">Макет Sedona</h2>
+                    <span class="portfolio__overlay-hidden">Перейти</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio__project">
+              <a href="https://katrinaiva.github.io/188118-nerds/" target="_blank" title="Переход Макет Nerds">
+                <img src="img/nerds-preview-min.jpg" alt="Макет Nerds">
+                <div class="portfolio__overlay">
+                  <div class="portfolio__overlay-content">
+                    <h2 class="portfolio__overlay-title">Макет Nerds</h2>
+                    <span class="portfolio__overlay-hidden"></span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="portfolio__project">
+              <a href="https://katrinaiva.github.io/188118-pink/" target="_blank" title="Переход Макет Pink">
+                <img src="img/pink-preview-min.jpg" alt="Макет Pink">
+                <div class="portfolio__overlay">
+                  <div class="portfolio__overlay-content">
+                    <h2 class="portfolio__overlay-title">Макет Pink</h2>
+                    <p>Адаптивная верстка</p>
+                    <span class="portfolio__overlay-hidden">Перейти</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="certificates">
+        <h1 class="certificates__title">Сертификаты</h1>
+          <figure class="certificates-miniature">
+            <figcaption>Базовый интенсив</figcaption>
+              <a href="#base" title="Базовый интенсив">
+                <img src="img/certificate-base-min.jpg" alt="Сертификат Базовый интенсив">
+              </a>
+          </figure>
+          <a class="lightbox" id="base" href="#close">
+            <img src="img/certificate-base-min.jpg" alt="Сертификат Базовый интенсив">
+          </a>
+          <figure class="certificates-miniature">
+            <figcaption>Продвинутый интенсив</figcaption>
+            <a href="#advanced" title="Продвинутый интенсив">
+              <img src="img/certificate-advanced-min.jpg" alt="Сертификат Продвинутый интенсив">
+            </a>
+          </figure>
+          <a class="lightbox" id="advanced" href="#close">
+            <img src="img/certificate-advanced-min.jpg" alt="Сертификат Продвинутый интенсив">
+          </a>
+      </section>
+    </main>
+<!--    <main class="container">-->
+<!--
       <section class="portfolio">
       <h1 class="portfolio-title">Moe портфолиио</h1>
         <div class="layout">
@@ -59,6 +139,19 @@
             <img src="img/certificate-advanced-min.jpg">
           </a>
       </section>
-    </main>
+-->
+<!--    </main>-->
+  <footer>
+    <section class="contacts">
+      <ul class="contacts__items">
+        <li class="contacts__item">
+          <a href=callto:katrina_i87>skype</a>
+        <li class="contacts__item">
+          <a href="mailto:katrina_i@tut.by">katrina_i@tut.by</a>
+        <li class="contacts__item">
+          <a href="telto:+375297552301">+375(29)755-23-01</a>
+      </ul>
+    </section>
+  </footer>
   </body>
 </html>
